@@ -39,7 +39,7 @@
     <string name="toast_import_profile_error">Có lỗi trong khi nhập hồ sơ!</string>
     <string name="toast_export_profile_success">Xuất hồ sơ thành công.</string>
     <string name="toast_export_profile_error">Có lỗi trong khi xuất hồ sơ!</string>
-    <string name="toast_terminal_error">Error when starting the terminal!</string>
+    <string name="toast_terminal_error">Có lỗi khi khởi chạy terminal!</string>
     <string name="confirm_profile_discard_title">Xoá hồ sơ</string>
     <string name="confirm_profile_discard_message">Xoá hồ sơ đã chọn?</string>
     <string name="new_script_title">Đường dẫn tập lệnh</string>
@@ -64,18 +64,18 @@
     <string name="title_theme_preference">Giao diện</string>
     <string name="dialog_title_theme_preference">Chọn giao diện</string>
     <string name="title_timestamp_preference">Timestamp</string>
-    <string name="summary_timestamp_preference">Show timestamp</string>
+    <string name="summary_timestamp_preference">Hiện  timestamp</string>
     <string name="title_appicon_preference">Hiện biểu tượng</string>
     <string name="summary_appicon_preference">Hiện biểu tượng trên thanh thông báo</string>
     <string name="title_autostart_preference">Tự khởi động</string>
     <string name="summary_autostart_preference">Tự khởi động GNU/Linux khi mở nguồn</string>
-    <string name="title_terminalcmd_preference">Terminal command</string>
-    <string name="dialog_title_terminalcmd_preference">Terminal command</string>
+    <string name="title_terminalcmd_preference">Lệnh Terminal</string>
+    <string name="dialog_title_terminalcmd_preference">Lệnh Terminal</string>
     <string name="env_preferences">Môi trường điều hành</string>
     <string name="title_busyboxdir_preference">Đường dẫn BusyBox</string>
     <string name="dialog_title_busyboxdir_preference">Đường dẫn BusyBox</string>
-    <string name="title_usecli_preference">Use CLI</string>
-    <string name="summary_usecli_preference">Set up a command line interface</string>
+    <string name="title_usecli_preference">Dùng CLI</string>
+    <string name="summary_usecli_preference">Cài đặt một giao diện dòng lệnh</string>
     <string name="title_installenv_preference">Cập nhật ENV</string>
     <string name="summary_installenv_preference">Cập nhật môi trường điều hành</string>
     <string name="message_installenv_confirm_dialog">Cập nhật môi trường điều hành chứ?</string>
@@ -187,11 +187,11 @@
     <string name="dialog_title_fbinput_preference">FB: đường dẫn thiết bị nhập liệu</string>
     <string name="title_fbargs_preference">Tuỳ chọn X</string>
     <string name="dialog_title_fbargs_preference">FB: tuỳ chọn X</string>
-    <string name="title_fbrefresh_preference">Force refresh</string>
-    <string name="summary_fbrefresh_preference">Force refresh frambuffer</string>
+    <string name="title_fbrefresh_preference">Bắt buộc làm mới</string>
+    <string name="summary_fbrefresh_preference">Bắt buộc làm mới frambuffer</string>
     <string name="title_fbfreeze_preference">Đóng băng giao diện người dùng Android</string>
     <string name="dialog_title_fbfreeze_preference">Đóng băng giao diện người dùng Android</string>
-    <string name="help_text">\n<b>Help</b>\n\nThis application installs the selected GNU/Linux distribution and executes it in a chroot-container.\n\nProcedure:\n1. Get superuser privileges (root).\n2. Install <a href="https://play.google.com/store/apps/details?id=ru.meefik.busybox">BusyBox</a>.\n3. Check the connection to Internet.\n4. Specify the installation options.\n5. Start the installation (\"Properties => Install\").\n6. Wait until the installation is complete.\n7. Tap \"START\" button to run the container.\n8. Connect to the container through CLI, SSH, VNC, or others.\n\nFor more information, see \"About\".</string>
-    <string name="about_text">This application installs the selected GNU/Linux distribution and executes it in a chroot-container.\n\nFor more information see <a href="https://github.com/meefik/linuxdeploy">project page</a>, <a href="http://4pda.ru/forum/index.php?showtopic=378043">forum</a> or <a href="http://meefik.ru">developer site</a>.\n\n&#169; 2012&#8211;2015 Anton Skshidlevsky, GPLv3</string>
+    <string name="help_text">\n<b>Trợ giúp</b>\n\nỨng dụng này cài đặt và thực thi bản phân phối GNU/Linux đã chọn trong một khối chroot.\n\nPhương pháp:\n1. Dùng quyền superuser (root).\n2. Cài đặt <a href="https://play.google.com/store/apps/details?id=ru.meefik.busybox">BusyBox</a>.\n3. Kiểm tra kết nối Internet.\n4. Xác định các lựa chọn cài đặt.\n5. Bắt đầu cài đặt (\"Các đặc tính => Cài đặt\").\n6. Chờ quá trình cài đặt hoàn tất.\n7. Nhấn \"Bắt đầu\" để khởi động Linux.\n8. Kết nối qua CLI, SSH, VNC, và các cách khác\n\nĐể biết thêm thông tin, chọn \"Thông tin\".</string>
+    <string name="about_text">Ứng dụng này cài đặt và thực thi bản phân phối GNU/Linux đã chọn trong một khối chroot.\n\nTìm thêm thông tin tại <a href="https://github.com/meefik/linuxdeploy">trang dự án</a>, <a href="http://4pda.ru/forum/index.php?showtopic=378043">forum</a> hoặc <a href="http://meefik.ru">website nhà phát triển </a>.\n\n&#169; 2012&#8211;2015 Anton Skshidlevsky, GPLv3</string>
 
 </resources>
