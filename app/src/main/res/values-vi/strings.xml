@@ -51,8 +51,8 @@
     <string name="dialog_title_maxlines_preference">Cuộn (dòng)</string>
     <string name="title_theme_preference">Giao diện</string>
     <string name="dialog_title_theme_preference">Chọn giao diện</string>
-    <string name="title_timestamp_preference">Timestamp</string>
-    <string name="summary_timestamp_preference">Show timestamp</string>
+    <string name="title_timestamp_preference">Dấu thời gian </string>
+    <string name="summary_timestamp_preference">Hiện dấu thời gian </string>
     <string name="title_appicon_preference">Hiện biểu tượng</string>
     <string name="summary_appicon_preference">Hiện biểu tượng trên thanh thông báo</string>
     <string name="title_autostart_preference">Tự khởi động</string>
@@ -81,8 +81,8 @@
     <string name="ssh_preferences">SSH</string>
     <string name="vnc_preferences">VNC</string>
     <string name="fb_preferences">Đệm khung</string>
-    <string name="help_text">\n<b>Help</b><![CDATA[\n\nThis application installs the selected GNU/Linux distribution and executes it in a chroot-container.\n\nProcedure:\n1. Get superuser privileges (root).\n2. Check the connection to Internet.\n3. Specify the installation options.\n4. Start the installation (\"Menu => Install\").\n5. Wait until the installation is complete.\n6. Tap \"START\" button to run the container.\n7. Connect to the container through CLI, SSH, VNC, or others.\n\nFor more information, see \"About\".]]></string>
-    <string name="about_text">This application installs the selected GNU/Linux distribution and executes it in a chroot-container.\n\nFor more information see <a href="https://github.com/meefik/linuxdeploy">project page</a>, <a href="http://4pda.ru/forum/index.php?showtopic=378043">forum</a> or <a href="http://meefik.ru">developer site</a>.\n\n© 2012–2016 Anton Skshidlevsky, GPLv3</string>
+    <string name="help_text">\n<b>Help</b><![CDATA[\n\nỨng dụng này sẽ cài đặt bản phân phối đã chọn và thực thi dưới chroot-container.\n\nPhương pháp:\n1. Lấy quyền Root.\n2. Kiểm tra kết nối tới Internet.\n3. Xác định các lựa chọn cài đặt.\n4. Bắt đầu cài đặt (\"Menu => Cài đặt\").\n5. Chờ quá trình cài đặt hoàn tất.\n6. Nhấn nút \"BẮT ĐẦU\" để khởi động.\n7. Kết nối qua CLI, SSH, VNC, hoặc các phương pháp khác.\n\nĐể biết thêm chi tiết, chọn \"Thông tin\".]]></string>
+    <string name="about_text">Ứng dụng này sẽ cài đặt bản phân phối GNU/Linux đã chọn và thực thi dưới chroot-container.\n\nĐể biết thêm chi tiết, truy cập  <a href="https://github.com/meefik/linuxdeploy">trang dự án</a>, <a href="http://4pda.ru/forum/index.php?showtopic=378043">diễn đàn</a> hoặc <a href="http://meefik.ru">trang web của nhà phát triển</a>.\n\n© 2012–2016 Anton Skshidlevsky, GPLv3</string>
     <string name="menu_configure">Cấu hình lại</string>
     <string name="menu_install">Cài đặt</string>
     <string name="summary_debug_mode_preference">Hiện thông tin gỡ lỗi</string>
@@ -161,14 +161,14 @@
     <string name="dialog_title_vnc_dpi_preference">VNC: điểm ảnh trên inch (DPI)</string>
     <string name="dialog_title_vnc_height_preference">VNC: chiều cao màn hình</string>
     <string name="dialog_title_vnc_width_preference">VNC: chiều rộng màn hình</string>
-    <string name="title_fb_refresh_preference">Force refresh</string>
-    <string name="summary_fb_refresh_preference">Force refresh framebuffer</string>
+    <string name="title_fb_refresh_preference">Bắt buộc làm mới</string>
+    <string name="summary_fb_refresh_preference">Bắt buộc làm mới bộ đệm khung hình</string>
     <string name="title_env_dir_preference">Đường dẫn ENV</string>
     <string name="menu_export">Xuất</string>
     <string name="nav_profiles">Hồ sơ</string>
     <string name="summary_is_gui_preference">Cho phép khởi động môi trường đồ hoạ</string>
     <string name="summary_is_init_preference">Bật thực thi tập lệnh tuỳ biến</string>
-    <string name="dialog_title_path_preference">PATH</string>
+    <string name="dialog_title_path_preference">Đường dẫn</string>
     <string name="repository_purchase_button">Mua</string>
 
 </resources>
